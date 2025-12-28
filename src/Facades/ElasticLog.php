@@ -6,6 +6,12 @@ namespace Zgtec\ElasticLog\Facades;
 use Illuminate\Support\Facades\Facade;
 use Zgtec\ElasticLog\ElasticLog as Model;
 
+/**
+ * @method static search(array<string, mixed> $data = [])
+ * @method static uniqueValues(string $field, int $limit = 100, array<string, mixed> $where = [])
+ * @method static create(array<string, mixed> $data)
+ * @method static truncate()
+ */
 class ElasticLog extends Facade
 {
     /**
